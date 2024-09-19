@@ -1,0 +1,77 @@
+Power searches - Boolean logic
+
+1. LinkedIn Recruiter: Power Searches with Boolean Logic
+Example 1: Senior Software Engineer (Full Stack)
+
+("Senior Software Engineer" OR "Full Stack Developer") AND ("JavaScript" AND "Node.js" AND "React") AND ("microservices" OR "cloud architecture") AND ("San Francisco" OR "Remote")
+This query targets senior full-stack engineers with expertise in JavaScript, Node.js, and React, focusing on microservices or cloud architecture in San Francisco or remote positions.
+
+Example 2: AI Researcher
+
+("AI Researcher" OR "Artificial Intelligence Specialist") AND ("deep learning" OR "neural networks") AND ("Python" OR "TensorFlow" OR "Keras") AND ("PhD" OR "MS")
+Searches for AI researchers with expertise in deep learning, Python, and relevant frameworks, emphasizing candidates with advanced degrees (PhD or MS).
+
+Example 3: DevOps Engineer
+
+("DevOps Engineer" OR "Site Reliability Engineer") AND ("AWS" OR "Azure" OR "Google Cloud") AND ("Kubernetes" OR "Docker") AND ("CI/CD pipelines")
+Focuses on finding DevOps engineers or SREs with cloud platform expertise and experience with containerization and CI/CD pipeline management.
+
+2. Google X-Ray Search: Finding Hidden Talent
+Example 1: Software Engineers on LinkedIn with GitHub Projects
+
+site:linkedin.com/in "software engineer" "GitHub" "New York" -jobs
+This search pulls LinkedIn profiles of software engineers in New York who have linked GitHub accounts, helping you identify candidates actively working on open-source projects.
+
+Example 2: Machine Learning Engineer with PDF Resumes
+
+site:linkedin.com/in "machine learning engineer" filetype:pdf resume
+This X-ray search looks for machine learning engineers who have uploaded their resumes in PDF format on LinkedIn, allowing you to easily download and review their qualifications.
+
+Example 3: AI Engineers on GitHub with Active Repositories
+
+site:github.com "artificial intelligence" "deep learning" "repositories"
+Targets AI engineers with contributions to deep learning repositories, allowing you to evaluate their code quality and project history directly on GitHub.
+
+
+3. GitHub: Sourcing by Code Contributions
+
+Example 1: JavaScript Developers in Seattle
+
+site:github.com Seattle "JavaScript" "React" contributions
+Searches for JavaScript developers in Seattle who have contributed to React projects on GitHub, giving you insight into their technical work and potential fit for front-end roles.
+
+Example 2: Machine Learning Engineers with TensorFlow Experience
+
+site:github.com "machine learning" "TensorFlow" contributions
+
+This query surfaces machine learning engineers with significant TensorFlow contributions, helping you identify candidates skilled in this essential AI framework.
+
+Example 3: DevOps Engineers with Docker Expertise
+
+site:github.com "DevOps" "Docker" "Kubernetes" stars:>50
+
+Searches for DevOps engineers who have contributed to Docker and Kubernetes projects with high engagement (over 50 stars), indicating strong skills and community recognition.
+
+Kaggle.com:
+Specifically targeting data science, machine learning, and AI talent:
+
+Example 1: Sourcing Top Data Scientists in Computer Vision
+
+site:kaggle.com "Grandmaster" "competitions" "computer vision"
+This query targets top-tier data scientists (Grandmasters) who have excelled in Kaggle competitions related to computer vision. These individuals are typically highly skilled in AI, deep learning, and image processing techniques.
+
+Example 2: Finding Machine Learning Experts Specializing in NLP
+
+site:kaggle.com "Top 1%" "natural language processing" "Python"
+This search identifies Kaggle users who are ranked in the top 1% of competitions focused on natural language processing (NLP) and have experience with Python. These candidates are likely to have hands-on experience with language models and text analytics.
+
+Example 3: Sourcing AI Engineers with Expertise in Reinforcement Learning
+
+site:kaggle.com "kernels" "reinforcement learning" "TensorFlow"
+This query looks for AI engineers who have shared notebooks or kernels on Kaggle related to reinforcement learning using TensorFlow. These candidates are likely to be engaged in cutting-edge AI research and projects.
+
+
+
+
+
+
